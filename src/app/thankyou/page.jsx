@@ -1,11 +1,10 @@
 import Link from "next/link";
 export const metadata = {
-
   title: "Ačiū!",
-  description: "Ačiū! Netrukus atsiųsime pasiūlymą į jūsų el. paštą.",
+  description:
+    "Ačiū už užklausą! Netrukus atsiųsime Kidcan pasiūlymą su kainodara, diegimo žingsniais. Jei reikia skubiai, susisiekite el. paštu.",
   robots: { index: true, follow: true },
 };
-
 export default function ThankYouPage() {
   return (
     <main className="min-h-[60vh] flex items-center">

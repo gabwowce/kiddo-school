@@ -10,9 +10,9 @@ import WhyNowSection from "@/components/home/school/WhyNowSection";
 
 export const metadata = {
   title: "Pagrindinis",
-  description: "Kidcan – sprendimas mokykloms valdyti mokinių telefonus.",
+  description:
+    "Platforma mokykloms, kuri automatiškai riboja trukdančias programėles pamokų metu, leidžia kurti tvarkaraščius, valdyti klases ir matyti mokinių susikaupimo pažangą.",
 };
-
 
 export default function Page() {
   return (

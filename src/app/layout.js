@@ -25,11 +25,11 @@ export const metadata = {
     template: "%s – Kidcan",
   },
   description:
-    "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
+    "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu. Kidcan padeda mokykloms valdyti mokinių telefonų naudojimą per pamokas: blokuoja blaškančias programėles, planuoja fokusą, teikia statistiką ir ataskaitas.",
   openGraph: {
     title: "Kidcan – Fokusas klasėje, ne ekranuose",
     description:
-      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
+      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu. Skaitmeninė drausmė be streso: blokuokite trukdančias programėles, kurkite tvarkaraščius klasei ir stebėkite pažangą realiu laiku – Android ir iOS.",
     url: siteUrl,
     siteName: "Kidcan",
     images: [{ url: "/og-preview.png", width: 1200, height: 630, alt: "Kidcan peržiūra" }],
@@ -40,7 +40,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Kidcan – Fokusas klasėje, ne ekranuose",
     description:
-      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
+      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu. Sprendimas mokykloms: išjunkite blaškančius app’sus pamokose, palikite tik tai, kas svarbu mokymuisi. Tvarkaraščiai, nuotolinis valdymas, statistika.",
     images: ["/og-preview.png"],
   },
   icons: {
