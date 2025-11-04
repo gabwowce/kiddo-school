@@ -21,15 +21,15 @@ const siteUrl = "https://kidcan.lt";
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Kidcan – Telefonų valdymas mokyklose",
+    default: "Kidcan – Fokusas klasėje, ne ekranuose",
     template: "%s – Kidcan",
   },
   description:
-    "„Kidcan“ padeda mokykloms valdyti mokinių telefonų naudojimą pamokų metu: blokuoja blaškančias programėles, leidžia planuoti fokusą ir suteikia statistiką.",
+    "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
   openGraph: {
-    title: "Kidcan – Telefonų valdymas mokyklose",
+    title: "Kidcan – Fokusas klasėje, ne ekranuose",
     description:
-      "Aktyvuokite mokyklos režimą, blokuokite blaškančias programėles ir gerinkite susikaupimą pamokose.",
+      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
     url: siteUrl,
     siteName: "Kidcan",
     images: [{ url: "/og-preview.png", width: 1200, height: 630, alt: "Kidcan peržiūra" }],
@@ -38,9 +38,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kidcan – Telefonų valdymas mokyklose",
+    title: "Kidcan – Fokusas klasėje, ne ekranuose",
     description:
-      "Mokyklos režimas: blokuokite blaškančias programėles, planuokite fokusą ir sekite statistiką.",
+      "Išjunkite blaškančius app’sus pamokose – palikite tik tai, kas svarbu.",
     images: ["/og-preview.png"],
   },
   icons: {
@@ -51,6 +51,7 @@ export const metadata = {
   manifest: "/manifest.json",
   robots: { index: true, follow: true },
 };
+
 
 export default function RootLayout({ children }) {
   return (
