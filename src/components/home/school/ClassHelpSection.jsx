@@ -85,7 +85,7 @@ export default function ClassHelpSection({
   ],
 }) {
   return (
-    <section className="pt-32 xl:pt-64">
+    <section id="features" className="pt-32 xl:pt-64">
       <div className="kiddo-container mx-auto grid gap-10 lg:gap-16 lg:grid-cols-2 items-start">
         {/* Kairė – tekstas */}
           <div className="max-w-[680px] lg:sticky lg:top-24 xl:top-88 lg:self-start u-stagger">

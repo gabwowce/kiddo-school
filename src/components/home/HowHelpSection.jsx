@@ -10,7 +10,7 @@ import adminAnim from "@/asset/computer-guy.json";
 
 export default function HowHelpSection (){
     return(
-        <section className="">
+        <section id="how" className="">
                   <div className="mx-auto kiddo-container">
                     <div className="flex flex-col gap-4 justify-center items-center py-24 xl:py-64 u-stagger">
                        <h2 className="u-reveal  text-4xl md:text-5xl font-bold max-w-[520px] xl:max-w-6xl text-center leading-[46px] tracking-[-0.018em] xl:leading-[63px] xl:tracking-[-0.018em]">
