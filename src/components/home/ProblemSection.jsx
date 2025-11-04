@@ -14,7 +14,7 @@ export default function ProblemSection(){
                           Telefonai blaško, konfliktai auga. 
                         </p>
                         <h2 className="u-reveal text-5xl md:text-5xl font-bold max-w-[520px] xl:max-w-6xl text-center leading-[46px] tracking-[-0.018em] xl:leading-[58px] xl:tracking-[-0.018em]">
-                        Ne telefonai problema. Problema – kaip juos suvaldyti.
+                        Ne telefonuose problema. Problema – kaip juos suvaldyti.
                         </h2>
                         <p className="u-reveal text-kiddo-muted text-center leading-7 tracking-[-0.003em] text-lg md:text-xl">
                           Mokytojai pavargę nuo telefono ginčų, tėvai nori ryšio. Abi pusės laimi su „Kidcan“.
