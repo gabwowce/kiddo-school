@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur bg-white">
       <div className="mx-auto py-4 flex items-center gap-3 kiddo-container">
-        <HamburgerButton open={open} onToggle={() => setOpen(v => !v)} />
+        <HamburgerButton open={open} onToggle={() => setOpen((v) => !v)} />
 
         <LogoLink />
 
@@ -37,11 +37,7 @@ export default function Header() {
         </div>
       </div>
 
-      <MobileSheet
-        open={open}
-        onClose={() => setOpen(false)}
-        items={nav}
-      />
+      <MobileSheet open={open} onClose={() => setOpen(false)} items={nav} />
     </header>
   );
 }
