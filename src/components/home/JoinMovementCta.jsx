@@ -1,14 +1,17 @@
 export default function JoinMovementCta() {
   return (
-    <section className="pt-0 xl:pt-112 pb-24 xl:pb-156">
+    <section className="pt-0 xl:pt-112 pb-12 xl:pb-156">
       <div className="mx-auto max-w-5xl text-center px-8 md:u-stagger">
-        <h2 className="u-reveal text-5xl md:text-6xl font-extrabold leading-[58px] tracking-[-0.018em] xl:leading-[63px] xl:tracking-[-0.018em]">
-          Ramūs tėvai. Susikaupę vaikai.
-          <br className="hidden md:block" />
-          Prisijunkite prie bendruomenės, kuri vertina realų ryšį.
+        <h2 className="u-reveal text-4xl md:text-6xl font-extrabold leading-[40px] xl:leading-[63px] tracking-[-0.018em]">
+          <span className="hidden md:block">
+            Ramūs tėvai. Susikaupę vaikai.
+          </span>
+          <span className="block md:mt-2">
+            Prisijunkite prie bendruomenės, kuri vertina realų ryšį.
+          </span>
         </h2>
 
-        <p className="u-reveal mt-4 md:mt-8 text-kiddo-muted mx-auto text-xl max-w-[600px]">
+        <p className="u-reveal mt-4 md:mt-8 text-kiddo-muted mx-auto text-md md:text-xl max-w-[600px]">
           Tai daugiau nei telefono ribojimas – tai judėjimas už ramesnius,
           labiau susitelkusius vaikus ir mokytojus.
         </p>
@@ -43,14 +46,14 @@ export default function JoinMovementCta() {
               className="h-2.5 w-2.5 rounded-full bg-[#97E0AA]"
               aria-hidden="true"
             ></span>
-            🌱 Ankstyva prieiga
+            📬 Dalyvaukite apklausose
           </li>
           <li className="inline-flex items-center gap-2 md:u-reveal">
             <span
               className="h-2.5 w-2.5 rounded-full bg-[#97E0AA]"
               aria-hidden="true"
             ></span>
-            📬 Dalyvaukite apklausose
+            🧭 Prisijunkite prie sprendimo kūrimo
           </li>
           <li className="inline-flex items-center gap-2 md:u-reveal">
             <span
